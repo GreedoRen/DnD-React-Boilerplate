@@ -1,0 +1,16 @@
+.item{
+    display: flex;
+    margin: 8px 8px;
+    flex-direction: column;
+    max-width: 300px;
+    text-align: justify;
+  }
+  .item.onHover{
+    border: 1px dashed #ccc;
+  }
+  .holder{
+    background: #ccc;
+    width: 20px;
+    height: 20px;
+    margin-right: 16px;
+  }
